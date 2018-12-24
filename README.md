@@ -10,7 +10,8 @@
 
 # Problems
 1. 在计算高斯函数的时候，出现溢出现象。
-原因是 `exp(-1.0 * (digit - self.miu) ** 2 / (2 * (self.sigma ** 2))) / (sqrt(2 * pi) * self.sigma)` 因为加上了指数，很容易出现下溢的情况。
+原因是 `exp((digit - self.miu) ** 2 / (2 * (self.sigma ** 2))) / (sqrt(2 * pi) * self.sigma)` 因为加上了指数，很容易出现上溢的情况。
+而这里我记错了 `exp` 里面的变量是因为加上负号的。
 
 
 # 参考
