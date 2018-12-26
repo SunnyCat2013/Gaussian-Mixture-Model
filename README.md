@@ -1,5 +1,13 @@
 # Learning Gaussian Mixture Model
 
+# Illustration for updating sigma
+## before updating sigma
+![before_sigma](https://user-images.githubusercontent.com/4412909/50443115-cf2c8580-093c-11e9-89b8-7840e2fd05bf.png)
+## after updating sigma
+![after_sigma](https://user-images.githubusercontent.com/4412909/50443116-d2277600-093c-11e9-8198-4bea0e6a1a69.png)
+
+
+
 # Questions
 1. 在训练高斯混合模型的时候，每个模型的权重有几个？
 是每个数据点对每个模型就有一个权重？
