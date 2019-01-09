@@ -1,6 +1,8 @@
 # Learning Gaussian Mixture Model
 
 # Illustration for updating sigma
+## fixing sigma square root bug
+![multi-model](https://user-images.githubusercontent.com/4412909/50877054-1caff480-140b-11e9-8338-cc82bfa2e4ee.png)
 ## before updating sigma
 ![before_sigma](https://user-images.githubusercontent.com/4412909/50443115-cf2c8580-093c-11e9-89b8-7840e2fd05bf.png)
 ## after updating sigma
