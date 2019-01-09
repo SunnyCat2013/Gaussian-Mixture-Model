@@ -1,6 +1,8 @@
 # Learning Gaussian Mixture Model
 
 # Illustration for updating sigma
+## fixing sigma square root bug
+![multi-model](https://user-images.githubusercontent.com/4412909/50877054-1caff480-140b-11e9-8338-cc82bfa2e4ee.png)
 ## before updating sigma
 ![before_sigma](https://user-images.githubusercontent.com/4412909/50443115-cf2c8580-093c-11e9-89b8-7840e2fd05bf.png)
 ## after updating sigma
@@ -22,5 +24,6 @@
 而这里我记错了 `exp` 里面的变量是因为加上负号的。
 
 
+2. 在更新 sigma 的时候，没有求平方根。
 # 参考
 《统计学习方法》
